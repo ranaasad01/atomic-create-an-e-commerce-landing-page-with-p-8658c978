@@ -705,7 +705,7 @@ export default function HomePage() {
                       <Star key={s} className="w-4 h-4 fill-[#f4a623] text-[#f4a623]" />
                     ))}
                   </div>
-                  <p className="text-[#1a1a1a]/75 text-sm leading-relaxed flex-1 text-pretty">
+                  <p className="text-[#1a1a1a]/75 text-sm leading-relaxed flex-1 text-pretty" style={t.text === "The linen throw is the softest thing in my apartment. I've recommended it to everyone I know. Worth every penny." ? { color: "#f59e0b" } : undefined}>
                     &ldquo;{t.text}&rdquo;
                   </p>
                   <div className="flex items-center gap-3 pt-2 border-t border-black/5">
